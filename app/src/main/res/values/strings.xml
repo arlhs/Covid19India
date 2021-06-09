@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Covid19India</string>
+    <string name="Covid19Cases">Covid-19 Cases</string>
+    <string name="vaccination_count">Vaccination Count</string>
+    <string name="vactination_image_discription">Vaccination</string>
+    <string name="cases_image_discription">Covid19 Cases in India</string>
 </resources>

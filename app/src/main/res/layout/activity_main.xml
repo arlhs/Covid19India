@@ -1,18 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#BBDEFB">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:layout_marginTop="50dp"
+            android:scaleType="fitCenter"
+            android:paddingBottom="20dp"
+            android:contentDescription="@string/cases_image_discription"
+            android:src="@drawable/outline_masks_24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Covid19Cases"
+            android:textSize="30sp"
+            android:layout_marginBottom="100dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#81C784" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/vactination_image_discription"
+            android:paddingBottom="30dp"
+            android:src="@drawable/outline_medical_services_24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vaccination_count"
+            android:textSize="30sp"
+            android:layout_marginBottom="100dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
