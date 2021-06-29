@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -14,24 +13,24 @@
         android:background="#BBDEFB">
 
         <ImageView
+            android:id="@+id/covid19cases_image_view"
             android:layout_width="match_parent"
             android:layout_height="225dp"
             android:layout_marginTop="50dp"
-            android:scaleType="fitCenter"
-            android:paddingBottom="20dp"
             android:contentDescription="@string/cases_image_discription"
+            android:paddingBottom="20dp"
+            android:scaleType="fitCenter"
             android:src="@drawable/outline_masks_24" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/Covid19Cases"
-            android:textSize="30sp"
-            android:layout_marginBottom="100dp"
             android:layout_alignParentBottom="true"
+            android:layout_marginBottom="100dp"
             android:gravity="center"
+            android:text="@string/Covid19Cases"
             android:textColor="@color/black"
-            />
+            android:textSize="30sp" />
 
     </RelativeLayout>
 
@@ -39,27 +38,27 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#81C784" >
+        android:background="#81C784">
 
         <ImageView
+            android:id="@+id/vaccination_image_view"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_marginTop="50dp"
-            android:scaleType="fitCenter"
             android:contentDescription="@string/vactination_image_discription"
             android:paddingBottom="30dp"
+            android:scaleType="fitCenter"
             android:src="@drawable/outline_medical_services_24" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/vaccination_count"
-            android:textSize="30sp"
-            android:layout_marginBottom="100dp"
             android:layout_alignParentBottom="true"
+            android:layout_marginBottom="100dp"
             android:gravity="center"
+            android:text="@string/vaccination_count"
             android:textColor="@color/black"
-            />
+            android:textSize="30sp" />
 
     </RelativeLayout>
 

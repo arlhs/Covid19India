@@ -4,4 +4,14 @@
     <string name="vaccination_count">Vaccination Count</string>
     <string name="vactination_image_discription">Vaccination</string>
     <string name="cases_image_discription">Covid19 Cases in India</string>
+    <string name="recovered_text">Recovered</string>
+    <string name="state_text">State</string>
+    <string name="confirmed_text">Confirmed</string>
+    <string name="deceased_text">Deceased</string>
+    <string name="tested_text">Tested</string>
+    <string name="tested_view">Tested</string>
+    <string name="dose_1_text">Dose 1 :</string>
+    <string name="dose_2_text">Dose 2 :</string>
+    <string name="population_text">Population :</string>
+    <string name="total_dose_text">Total Dose :</string>
 </resources>
