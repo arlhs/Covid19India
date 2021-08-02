@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.arlhs.covid19Tracker.fragment.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_casesFragment"
+            app:destination="@id/casesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_vaccinationFragment"
+            app:destination="@id/vaccinationFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_precautionFragment"
+            app:destination="@id/precautionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/casesFragment"
+        android:name="com.arlhs.covid19Tracker.fragment.CasesFragment"
+        android:label="Cases Tracker"
+        tools:layout="@layout/fragment_cases" />
+    <fragment
+        android:id="@+id/vaccinationFragment"
+        android:name="com.arlhs.covid19Tracker.fragment.VaccinationFragment"
+        android:label="Vaccination Tracker" />
+    <fragment
+        android:id="@+id/precautionFragment"
+        android:name="com.arlhs.covid19Tracker.fragment.PrecautionFragment"
+        android:label="Precautions"
+        tools:layout="@layout/fragment_precaution" />
+    <fragment
+        android:id="@+id/privacyFragment"
+        android:name="com.arlhs.covid19Tracker.fragment.PrivacyFragment"
+        android:label="Privacy Policy"
+        tools:layout="@layout/fragment_privacy" />
+    <activity
+        android:id="@+id/registrationActivity"
+        android:name="com.arlhs.covid19Tracker.activity.RegistrationActivity"
+        android:label="activity_registration"
+        tools:layout="@layout/activity_registration" />
+</navigation>

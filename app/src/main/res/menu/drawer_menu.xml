@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/precautionFragment"
+        android:icon="@drawable/rules"
+        android:title="@string/drawer_precautions_text" />
+    <item
+        android:id="@+id/registrationActivity"
+        android:icon="@drawable/vaccine_registration"
+        android:title="@string/drawer_vaccine_registration_text" />
+
+    <item
+        android:id="@+id/privacyFragment"
+        android:icon="@drawable/privacy"
+        android:title="@string/drawer_privacy_policy_text" />
+
+    <item
+        android:id="@+id/share_drawer_menu"
+        android:icon="@drawable/share"
+        android:title="@string/drawer_share_this_app_text"
+        android:visible="false" />
+</menu>

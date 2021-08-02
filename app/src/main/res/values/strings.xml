@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Covid19India</string>
+    <string name="app_name">Covid-19 Tracker</string>
     <string name="Covid19Cases">Covid-19 Cases</string>
-    <string name="vaccination_count">Vaccination Count</string>
+    <string name="vaccination_count">Vaccination</string>
     <string name="vactination_image_discription">Vaccination</string>
     <string name="cases_image_discription">Covid19 Cases in India</string>
     <string name="recovered_text">Recovered</string>
@@ -14,4 +14,29 @@
     <string name="dose_2_text">Dose 2 :</string>
     <string name="population_text">Population :</string>
     <string name="total_dose_text">Total Dose :</string>
+    <string name="privacyTextView">Privacy Policy</string>
+    <string name="hello_blank_fragment"> Blank</string>
+    <string name="privacyText">the Covid-19 Tracker app as a Free app. This SERVICE is provided by Aditya Raj at no cost and is intended for use as is.  This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.  If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.  The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Covid-19 Tracker unless otherwise defined in this Privacy Policy.  Information Collection and Use  For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.
+        The app does use third party services that may collect information used to identify you.</string>
+
+    <string-array name="SortBy">
+        <item>State</item>
+        <item>Confirmed</item>
+        <item>Recovered</item>
+        <item>Tested</item>
+        <item>Deceased</item>
+    </string-array>
+
+    <!--    WebView String Recources-->
+    <string name="please_wait">Please wait&#8230;</string>
+    <string name="no_internet">No internet connection!</string>
+    <string name="settings">Settings</string>
+    <string name="back_again_to_exit">Please click BACK again to exit</string>
+    <string name="drawer_precautions_text">Precautions</string>
+    <string name="drawer_vaccine_registration_text">Vaccine Registration</string>
+    <string name="drawer_privacy_policy_text">Privacy Policy</string>
+    <string name="drawer_share_this_app_text">Share This App</string>
+    <string name="drawer_image_content_des">Logo</string>
+    <string name="drop_down_sort_hint">Sort By</string>
+    <string name="drop_down_default">Select</string>
 </resources>
