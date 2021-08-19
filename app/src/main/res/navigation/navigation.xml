@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.arlhs.covid19Tracker.fragment.HomeFragment"
+        android:name="com.arlhs.casesTracker.fragment.HomeFragment"
         android:label="Home"
         tools:layout="@layout/fragment_home">
         <action
@@ -22,26 +22,26 @@
     </fragment>
     <fragment
         android:id="@+id/casesFragment"
-        android:name="com.arlhs.covid19Tracker.fragment.CasesFragment"
+        android:name="com.arlhs.casesTracker.fragment.CasesFragment"
         android:label="Cases Tracker"
         tools:layout="@layout/fragment_cases" />
     <fragment
         android:id="@+id/vaccinationFragment"
-        android:name="com.arlhs.covid19Tracker.fragment.VaccinationFragment"
+        android:name="com.arlhs.casesTracker.fragment.VaccinationFragment"
         android:label="Vaccination Tracker" />
     <fragment
         android:id="@+id/precautionFragment"
-        android:name="com.arlhs.covid19Tracker.fragment.PrecautionFragment"
+        android:name="com.arlhs.casesTracker.fragment.PrecautionFragment"
         android:label="Precautions"
         tools:layout="@layout/fragment_precaution" />
     <fragment
         android:id="@+id/privacyFragment"
-        android:name="com.arlhs.covid19Tracker.fragment.PrivacyFragment"
+        android:name="com.arlhs.casesTracker.fragment.PrivacyFragment"
         android:label="Privacy Policy"
         tools:layout="@layout/fragment_privacy" />
     <activity
         android:id="@+id/registrationActivity"
-        android:name="com.arlhs.covid19Tracker.activity.RegistrationActivity"
+        android:name="com.arlhs.casesTracker.activity.RegistrationActivity"
         android:label="activity_registration"
         tools:layout="@layout/activity_registration" />
 </navigation>

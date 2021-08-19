@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Covid-19 Tracker</string>
+    <string name="app_name">Cases Tracker India</string>
     <string name="Covid19Cases">Covid-19 Cases</string>
     <string name="vaccination_count">Vaccination</string>
     <string name="vactination_image_discription">Vaccination</string>

@@ -10,7 +10,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.arlhs.covid19Tracker"
+        applicationId "com.arlhs.casesTracker"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1
